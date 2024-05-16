@@ -1,6 +1,7 @@
 # Network-Intrusion-Detection-Systems-ML
 
-Introduction
+Introduction: 
+
 In the contemporary landscape of cybersecurity, the significance of real-time network 
 intrusion detection cannot be overstated. Our project is designed to address this 
 critical need by developing a Network Intrusion Detection System (NIDS) that 
@@ -11,7 +12,8 @@ complex datasets with intricate feature interactions. This choice is pivotal, co
 the evolving nature of cyber threats which require robust and adaptable detection 
 mechanisms.
 
-Methodology
+Methodology:
+
 The project utilized the CICIDS2017 dataset, a comprehensive collection of labeled 
 network flows that simulate a variety of intrusion and normal scenarios. This dataset's 
 diversity makes it exceptionally suitable for training a model intended for real-time 
@@ -25,7 +27,8 @@ of the data was used for training the model, with the remaining 30% reserved for
 testing its performance. This split is crucial for validating the model's effectiveness on 
 unseen data, thereby simulating real-world usage as closely as possible.
 
-Results
+Results:
+
 The performance of the RandomForestClassifier was evaluated using metrics like 
 accuracy, precision, recall, and the F1 score. The high scores across these metrics 
 confirmed the model's capability in distinguishing between benign and malicious 
@@ -37,7 +40,8 @@ shed light on which data features were most influential in predicting network
 intrusions. This information is vital for refining data collection strategies and 
 improving model accuracy in future iterations.
 
-Conclusion
+Conclusion:
+
 This project has successfully demonstrated the potential of using advanced machine 
 learning techniques, specifically the RandomForestClassifier, to develop a real-time 
 NIDS capable of effectively distinguishing between benign and malicious network 
